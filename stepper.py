@@ -41,5 +41,5 @@ while True:
     direction = invert(direction)
     Event().wait(0.5)
     n_steps = randint(1,200)
-    print(direction,n_steps)
-    step(n_steps, direction, dir_pin, step_pin)
+    print(direction,n_steps,)
+    step(n_steps, direction, dir_pin, step_pin, step_delay=0)
